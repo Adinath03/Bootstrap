@@ -1,0 +1,202 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* headings */
+.big-headings {
+  line-height: 1.5;
+  size: 3.5rem;
+  font-weight: 900;
+}
+
+.pricing-heading {
+  size: 4.5rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+/* container-padding */
+.container-fluid {
+  padding: 7% 10%;
+}
+
+/* section-colors */
+.colored-section {
+  background-color: #EE6983;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/*-- Nav Bar -->*/
+.navbar-brand {
+  text-align: left;
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-family: "Montserrat-Light";
+  font-size: 1.2rem;
+}
+
+/* download buttons */
+.download-button {
+  margin: 3% 5% 0 0;
+}
+
+/* title */
+#title .container-fluid {
+  padding: 2% 10%;
+  text-align: left;
+}
+
+/* title-image */
+.title-image {
+  width: 60%;
+  transform: rotate(20deg);
+}
+
+.title-container {
+  padding: 5% 0;
+}
+
+/* features */
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.features-text {
+  size: 1.5rem;
+  font-weight: 700;
+}
+
+.center {
+  width: 100%;
+  color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.fa-heart:hover, .fa-bullseye:hover, .fa-circle-check:hover {
+  color: #ff4c68;
+}
+
+.mid {
+  line-height: 2;
+}
+
+.mid-box {
+  padding: 2%;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text {
+  size: 4.5rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 12%;
+  border-radius: 50%;
+  margin: 1rem;
+  background-color: #fff;
+}
+
+/* press */
+#press {
+  background-color: #ef8172;
+  padding: 0 7% 1% 7%;
+}
+
+.press-logo {
+  width: 8rem;
+}
+
+/* pricing */
+.pricing-text {
+  size: 1.5rem;
+  font-weight: 700;
+}
+
+.col-sm-6 {
+  padding: 3% 0;
+}
+
+.pricing-card {
+  padding: 5% 2%;
+}
+
+/* call to action */
+#cta .container-fluid {
+  padding: 5% 10%;
+}
+
+.cta-text {
+  line-height: 1.5;
+  size: 3.5rem;
+  font-weight: 900;
+}
+
+/* footer */
+#footer {
+  padding: 5% 5%;
+}
+
+.footer-image {
+  width: 2%;
+}
+
+.footer-link {
+  color: #11999E;
+  margin: 20px;
+}
+
+.copyright {
+  width: 50%;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-container {
+    padding: 5% 0;
+  }
+
+  #pricing {
+    padding: 8% 0;
+  }
+
+  #press {
+    padding-bottom: 8%;
+  }
+
+  .pricing-card {
+    padding: 8% 12%;
+  }
+
+  .footer-image {
+    width: 6%;
+  }
+}
